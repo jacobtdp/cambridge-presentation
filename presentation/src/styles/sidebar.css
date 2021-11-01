@@ -1,0 +1,32 @@
+.sidebar-container {
+    position: fixed;
+    top: 16.5vh;
+
+    height: 0px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 16.5vh; */
+}
+
+.sidebar-left {
+    width: 20vw;
+    height: 85vh;
+
+    background-color: blue;
+    box-shadow: 4px 4px 4px grey;
+} .sidebar-left img {
+    width: 20vw;
+    /* margin: 2px 0; */
+}
+
+.sidebar-right {
+    width: 20vw;
+    height: 85vh;
+
+    background-color: blue;
+    box-shadow: 4px 4px 4px grey;
+} .sidebar-right img {
+    width: 20vw;
+}

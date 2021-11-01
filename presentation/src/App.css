@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+  font-weight: 300;
+}
+.page-title {
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+}
+
+.main-content {
+  margin: 16.5vh 20vw;
+  padding: 2rem;
+  color: black;
+}
+
+.tier-three {
+  position: fixed;
+  top: 10.8vh;
+  background-color: #b1b1b1;
+} .tier-three ul {
+  height: 3rem;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+} .tier-three ul li {
+  height: 3rem;
+  width: 20vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px dashed grey;
+  padding: 0 1rem;
+}
+
+
+
+
+.introduction--container img {
+  width: 35vw;
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px grey;
+}
+.slide-bullets {
+  width: 35vw;
+
+  padding: 1rem;
+  margin: 3rem auto;
+  background-color: #dddddd;
+
+  border: 2px solid black;
+  box-shadow: 4px 4px 4px grey;
+} .slide-bullets h4 {
+  text-align: left;
+} .slide-bullets h2 {
+  color: red;
+}
+.next-button {
+  margin: 10rem 0;
+}
+.quote {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5rem 3rem;
+}
+
+
+
+
+
+a:visited{
+  color:blue;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
