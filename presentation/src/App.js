@@ -11,7 +11,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  Redirect
 } from "react-router-dom";
 
 function App() {
@@ -33,7 +34,12 @@ function App() {
                 </ul>
           </div>
           <div className="main-content">
+
+
             <Switch>
+                <Route exact path ="/">
+                  <Redirect to="/introduction" />
+                </Route>
                 <Route path="/authors">
                     {/* <Le /> */}
                 </Route>
