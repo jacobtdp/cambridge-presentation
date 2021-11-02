@@ -31,7 +31,7 @@ function Authors() {
                 </div>
             </div>
 
-            <h1 className="next-button"><a href="/cambridge-presentation/introduction">NEXT</a></h1>
+            <h1 className="next-button"><a href="/cambridge-presentation/#/introduction">NEXT</a></h1>
 
         </div>
     )

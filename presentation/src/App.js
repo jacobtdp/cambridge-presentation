@@ -39,7 +39,7 @@ function App() {
 
 
             <Switch>
-                <Route exact path ="/">
+                <Route exact path ="/cambridge-presentation/">
                   <Redirect to="/authors" />
                 </Route>
                 <Route path="/authors">
