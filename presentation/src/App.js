@@ -2,10 +2,12 @@ import './App.css';
 
 import Nav from './components/Nav';
 import Sidebar from './components/Sidebar';
+import Authors from './components/Authors';
 import Gavin from './components/Gavin';
 import Le from './components/Le';
 import Jacob from './components/Jacob';
 import Carlita from './components/Carlita';
+import Detox from './components/DigitalDetox';
 
 import {
   BrowserRouter as Router,
@@ -30,7 +32,7 @@ function App() {
                     <li><Link to="/mechanics">Why Do These Ads Appear?</Link></li>
                     <li><Link to="/surveillance">Surveillance Capitalism -- Does it work?</Link></li>
                     <li><Link to="/questions">Questions for the Future</Link></li>
-                    <li><Link to="/detox">(Bonus Content) How to Digitally Disappear</Link></li>
+                    <li><Link to="/detox">(Bonus Content)</Link></li>
                 </ul>
           </div>
           <div className="main-content">
@@ -38,10 +40,10 @@ function App() {
 
             <Switch>
                 <Route exact path ="/">
-                  <Redirect to="/introduction" />
+                  <Redirect to="/authors" />
                 </Route>
                 <Route path="/authors">
-                    {/* <Le /> */}
+                    <Authors />
                 </Route>
                 <Route path="/introduction">
                     <Gavin />
@@ -56,7 +58,7 @@ function App() {
                     <Carlita />
                 </Route>
                 <Route path="/detox">
-                    {/* <Le /> */}
+                    <Detox />
                 </Route>
             </Switch>
           </div>

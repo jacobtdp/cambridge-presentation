@@ -14,7 +14,7 @@ function Carlita() {
             </ul>
             <img src={p11} /> 
 
-            <h1 className="next-button"><a href="/detox">NEXT (bonus)</a></h1>
+            <h1 className="next-button"><a href="/cambridge-presentation/detox">NEXT (bonus)</a></h1>
 
         </div>
     )
