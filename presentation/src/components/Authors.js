@@ -7,7 +7,7 @@ function Authors() {
     return(
         <div className="introduction--container">
 
-            <h1 className="page-title">Cambridge Analytica, Data Misuse, and the 2016 Election</h1>
+            <h1 className="page-title">Cambidge Analytica, Data Misuse, and the 2016 Election</h1>
             <h2>Research based on "The Data that Turned the World Upside-Down"</h2>
             <h4>By Mikael Krogerus and Hannes Grasseggor</h4>
             <div className="authors-images">
@@ -31,7 +31,9 @@ function Authors() {
                 </div>
             </div>
 
-            <h1 className="next-button"><a href="/cambridge-presentation/#/introduction">NEXT</a></h1>
+
+
+            <h1 className="next-button"><a href="https://jacobtdp/cambridge-presentation/#introduction">NEXT</a></h1>
 
         </div>
     )
