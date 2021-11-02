@@ -18,7 +18,7 @@ function Detox() {
                         </div>
                         <div>
                             <h3>Hate internet :(</h3>
-                            <a href={'https://www.youtube.com/watch?v=KzMfeQyY5xM'} target="_blank"><img src={p13} /></a>
+                            <a href={'https://www.youtube.com/watch?v=05sJVEwZuZ4'} target="_blank"><img src={p13} /></a>
                         </div>
                 </div>
             </div>
