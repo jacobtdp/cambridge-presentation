@@ -7,7 +7,7 @@ function Authors() {
     return(
         <div className="introduction--container">
 
-            <h1 className="page-title">Cambridge Analytica, Data Misuse, and the 2016 Election</h1>
+            <h1 className="page-title">Cambidge Analytica, Data Misuse, and the 2016 Election</h1>
             <h2>Research based on "The Data that Turned the World Upside-Down"</h2>
             <h4>By Mikael Krogerus and Hannes Grasseggor</h4>
             <div className="authors-images">

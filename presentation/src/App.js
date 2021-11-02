@@ -42,7 +42,7 @@ function App() {
                 {/* <Route exact path ="/cambridge-presentation/">
                   <Redirect to="/authors" />
                 </Route> */}
-                <Route path="/">
+                <Route path="/authors">
                     <Authors />
                 </Route>
                 <Route path="/introduction">
