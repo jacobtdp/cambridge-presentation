@@ -27,7 +27,7 @@ function App() {
 
           <div className="tier-three">
                 <ul>
-                    <li><Link to="/">Authors</Link></li>
+                    <li><Link to="/authors">Authors</Link></li>
                     <li><Link to="/introduction">Introduction</Link></li>
                     <li><Link to="/mechanics">Why Do These Ads Appear?</Link></li>
                     <li><Link to="/surveillance">Surveillance Capitalism -- Does it work?</Link></li>
