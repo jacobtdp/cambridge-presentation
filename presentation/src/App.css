@@ -10,6 +10,9 @@ h1 {
   background-color: blue;
   color: white;
 }
+.audio-player {
+  margin: 1rem 0;
+}
 
 .main-content {
   margin: 16.5vh 20vw;

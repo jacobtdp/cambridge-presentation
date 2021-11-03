@@ -49,7 +49,6 @@ function Le() {
                 </div>
                 <img src={p7} />
 
-            <h1 className="next-button"><a href="/cambridge-presentation/surveillance">NEXT</a></h1>
 
         </div>
     )

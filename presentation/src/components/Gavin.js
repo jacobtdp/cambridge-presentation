@@ -31,7 +31,6 @@ function Gavin() {
                 </div>
                 <img src={p3} />
 
-            <h1 className="next-button"><a href="/cambridge-presentation/mechanics">NEXT</a></h1>
 
         </div>
     )

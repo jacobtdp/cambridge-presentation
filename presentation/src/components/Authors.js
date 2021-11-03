@@ -1,7 +1,9 @@
 import React from 'react';
+import ReactAudioPlayer from 'react-audio-player';
 
 import p14 from '../assets/author_1.jpeg';
 import p15 from '../assets/author_2.png';
+import audio_authors from '../assets/audio_authors.mp3';
 
 function Authors() {
     return(
@@ -10,6 +12,12 @@ function Authors() {
             <h1 className="page-title">Cambridge Analytica, Data Misuse, and the 2016 Election</h1>
             <h2>Research based on "The Data that Turned the World Upside-Down"</h2>
             <h4>By Mikael Krogerus and Hannes Grasseggor</h4>
+            <ReactAudioPlayer
+                className="audio-player"
+                src={audio_authors}
+                autoPlay
+                controls
+            />
             <div className="authors-images">
                 <div className="author-column">
                     <img src={p14}/>
@@ -33,7 +41,6 @@ function Authors() {
 
 
 
-            <h1 className="next-button"><a href="https://jacobtdp.github.io/#introduction">NEXT</a></h1>
 
         </div>
     )
