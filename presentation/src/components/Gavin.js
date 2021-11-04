@@ -1,14 +1,24 @@
 import React from 'react';
+import ReactAudioPlayer from 'react-audio-player';
 
 import p1 from '../assets/p1.png';
 import p2 from '../assets/p2.png';
 import p3 from '../assets/p3.png';
+import audio_intro_1 from '../assets/gavinsaudio1.mp3';
+import audio_intro_2 from '../assets/gavinsaudio2.mp3';
+import audio_intro_3 from '../assets/gavinsaudio3.mp3';
 
 function Gavin() {
     return(
         <div className="introduction--container">
 
             <h1 className="page-title">Cambridge Analytica, Data Misuse, and the 2016 Election</h1>
+            <ReactAudioPlayer
+                className="audio-player"
+                src={audio_intro_1}
+                autoPlay
+                controls
+            />
                 <div className="slide-bullets">
                     <h2>The 2016 Election:</h2>
                     <h4>• What happened?</h4>
@@ -16,6 +26,11 @@ function Gavin() {
                     <h4>• The impact.</h4>
                 </div>
                 <img src={p1} />
+            <ReactAudioPlayer
+                className="audio-player"
+                src={audio_intro_2}
+                controls
+            />
                 <div className="slide-bullets">
                     <h2>Cambridge Analytica:</h2>
                     <h4>• Basic premise of the company</h4>
@@ -23,6 +38,11 @@ function Gavin() {
                     <h4>• How does CA function?</h4>
                 </div>
                 <img src={p2} />
+            <ReactAudioPlayer
+                className="audio-player"
+                src={audio_intro_3}
+                controls
+            />
                 <div className="slide-bullets">
                     <h2>The CA Story:</h2>
                     <h4>• Following the election scandal</h4>

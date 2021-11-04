@@ -1,15 +1,25 @@
 import React from 'react';
+import ReactAudioPlayer from 'react-audio-player';
 
 import p4 from '../assets/p4.jpeg';
 import p5 from '../assets/p5.jpg';
 import p6 from '../assets/p6.jpeg';
 import p7 from '../assets/p7.jpg';
 
+import audio_mechanics_1 from '../assets/audio_mechanics_1.mp3';
+import audio_mechanics_2 from '../assets/audio_mechanics_2.mp3';
+
 function Le() {
     return(
         <div className="introduction--container">
 
             <h1 className="page-title">Cambridge Analytica, Data Misuse, and the 2016 Election</h1>
+            <ReactAudioPlayer
+                className="audio-player"
+                src={audio_mechanics_1}
+                autoPlay
+                controls
+            />
                 <div className="slide-bullets">
                     <h2>Behavior data:</h2>
                     <h4>• What it is</h4>
@@ -31,6 +41,11 @@ function Le() {
                 </div>
                 <img src={p5} />
 
+            <ReactAudioPlayer
+                className="audio-player"
+                src={audio_mechanics_2}
+                controls
+            />
                 <div className="slide-bullets">
                     <h2>Actions taken by facebook:</h2>
                     <h4>• What did FB do in response?</h4>
